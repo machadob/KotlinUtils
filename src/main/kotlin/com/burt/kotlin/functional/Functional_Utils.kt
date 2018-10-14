@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
     testFunc()
 }
 
-fun testFunc() {
+fun testFunc() {//Added in github.
     val persons = listOf<Person>(Person("Burton", "Machado", 1000000.0), Person("Ruth", "Machado", 2000000.0), Person("Shaun", "Machado", 4000000.0))
     val filtered = persons.filter { it.salary < 4000000.0 }
     println("*********** Printing Filtered ***********")

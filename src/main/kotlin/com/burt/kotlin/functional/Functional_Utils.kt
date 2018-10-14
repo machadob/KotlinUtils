@@ -17,3 +17,4 @@ fun testFunc() {
     mapped.forEach({ println(it) })
     println("------------------------------------------------")
 }
+

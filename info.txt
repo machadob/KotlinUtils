@@ -1,0 +1,12 @@
+                    # Notes on kotlin
+    #Compiling and Running
+Kotlin does not have to follow the package to path mappings that Java follows. It is recommended to follow it though.
+Kotlin has it's own Compiler that can be installed along with the Kotlin runtime.
+Kotlin needs a small run time along with the JRE to run Kotlin generated code.
+You can create a executable jar that includes the Kotlin runtime. e.g. to create a jar out of Main.kt use:
+    kotlinc Main.kt -include-runtime  -d hello.jar
+Run it by using:
+    java -jar hello.jar
+You can mix Kotlin and Java source files in the same project.
+Semicolons are optional in Kotlin.
+Kotlin can have more than one main() function per package but only one per file.s

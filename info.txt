@@ -9,4 +9,7 @@ Run it by using:
     java -jar hello.jar
 You can mix Kotlin and Java source files in the same project.
 Semicolons are optional in Kotlin.
-Kotlin can have more than one main() function per package but only one per file.s
+Kotlin can have more than one main() function per package but only one per file.
+Packages in Kotlin can be imported with as keyword:
+import java.sql.Date as sqlDate (this will help avoid name comflicts with java.util.Date).
+

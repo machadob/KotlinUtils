@@ -19,5 +19,11 @@ fun main(args: Array<String>) {
         is String -> print("is String")
         "value" -> print("value")
     }
+
+    val res = when(result){ // When is like a case statement.
+        is String -> "is String"
+        "value" -> "value"
+        else -> "def" // If using when in an expression, else is not optional.
+    }
 }
 

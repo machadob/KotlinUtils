@@ -21,4 +21,7 @@ fun main(args: Array<String>) {
     println(defParams(2))
     println(myAdd1(2,3 ))
     println(myAdd(i=8, j=7)) //Named parameters
+    printStrings("1")
+    printStrings("1", "2")
+    printStrings("1", "2", "4")
 }

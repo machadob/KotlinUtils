@@ -13,3 +13,14 @@ Kotlin can have more than one main() function per package but only one per file.
 Packages in Kotlin can be imported with as keyword:
 import java.sql.Date as sqlDate (this will help avoid name comflicts with java.util.Date).
 
+Use interpolation in strings. "Name is : ${name}"
+Use triple quotes("""hello""") for strings spanning multiple lines.
+if as an expression returning a value.
+All of Kotlin's statements act as expressions except for the loops.
+Yu can break and continue from loops using labels. labels use @ in their name.
+Use when instead of a switch.
+Use ranges for loops and list of numbers. You can also create reverse ranges and ranges with steps.
+Single line function with no body.
+extension functions.
+Default parameters, Named parameters for functions.
+Spread operator.

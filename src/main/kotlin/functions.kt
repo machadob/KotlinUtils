@@ -17,6 +17,11 @@ fun printStrings(vararg strings:String){
     }
 }
 
+//spread operator *
+fun testPrintStrings(vararg strings:String){
+    printStrings(*strings)  //Use the spread operator to pass vararg into another function.
+}
+
 fun main(args: Array<String>) {
     println(defParams(2))
     println(myAdd1(2,3 ))

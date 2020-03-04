@@ -215,7 +215,6 @@
         <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.ConditionalsKt" />
         <item itemvalue="Kotlin.VariablesKt" />
-        <item itemvalue="Kotlin.com.burt.kotlin.LoopsAndRangesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +314,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

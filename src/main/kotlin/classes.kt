@@ -21,7 +21,7 @@ class NewPerson1(val firstName:String, var lastName:String){ //2 properties. one
 }
 
 fun main(args: Array<String>) {
-    val customer = Customer()
+    val customer = Customer() // new operator is not required for creating instance of a class.
     println("Name : " + customer.name)
     customer.name = "Doe"
     println("Name : " + customer.name)

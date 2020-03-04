@@ -40,9 +40,25 @@ class NewPerson4(val firstName:String, val offset:Int = 10, var lastName:String 
     }
 }
 
+class NewPerson5(val firstName:String, var lastName:String = "Doe"){ // Functions in a class
+    fun getName():String{ //Default is public access for class members.
+        return firstName + lastName
+    }
+
+    private fun getName1():String{ // private function only visible inside the class.
+        return firstName + lastName
+    }
+
+    protected fun getName2():String{// protected function visible inside the class and it's subclasses.
+        return firstName + lastName
+    }
+}
+
 fun main(args: Array<String>) {
     val customer = Customer() // new operator is not required for creating instance of a class.
     println("Name : " + customer.name)
     customer.name = "Doe" // Access class property.
     println("Name : " + customer.name)
+    val np = NewPerson5("John")
+    println("Name : " + np.getName())
 }

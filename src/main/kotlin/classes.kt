@@ -36,7 +36,7 @@ class NewPerson4(val firstName:String, val offset:Int = 10, var lastName:String 
     }
     var ssn:String= ""
     set(value) { // Custom setter
-        ssn = java.util.Date().toString() + value
+        field = java.util.Date().toString() + value  //field is a special value that refers to the underlying property.
     }
 }
 

@@ -12,11 +12,11 @@ class Person(firstName_:String, lastName_:String){
     var lastName = lastName_
 }
 
-class NewPerson(val firstName:String, var lastName:String)
+class NewPerson(val firstName:String, var lastName:String)  //2 properties. one read-only and one read-write.
 
-class NewPerson1(val firstName:String, var lastName:String){
+class NewPerson1(val firstName:String, var lastName:String){ //2 properties. one read-only and one read-write.
     init {
-        lastName = lastName.toUpperCase()
+        lastName = lastName.toUpperCase() // Update property in init. init called after construction.
     }
 }
 

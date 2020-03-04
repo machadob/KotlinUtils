@@ -20,9 +20,29 @@ class NewPerson1(val firstName:String, var lastName:String){ //2 properties. one
     }
 }
 
+class NewPerson2(val firstName:String, var lastName:String = "John")  //Default arg in constructors.
+
+class NewPerson3(val firstName:String, var lastName:String = "John")  {//Primary constructor
+    constructor(firstName:String) : this(firstName,"Joe") { // Secondary constructor. Need to call the super with this.
+
+    }
+}
+
+//Custom getters and setters.
+class NewPerson4(val firstName:String, val offset:Int = 10, var lastName:String = "John"){
+    val age:Int  //Property with a custom getter
+    get() {
+        return offset*7
+    }
+    var ssn:String= ""
+    set(value) { // Custom setter
+        ssn = java.util.Date().toString() + value
+    }
+}
+
 fun main(args: Array<String>) {
     val customer = Customer() // new operator is not required for creating instance of a class.
     println("Name : " + customer.name)
-    customer.name = "Doe"
+    customer.name = "Doe" // Access class property.
     println("Name : " + customer.name)
 }

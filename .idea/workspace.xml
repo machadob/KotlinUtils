@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4e881f2-5f19-4453-aac0-e902f835b404" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes.kt" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +61,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -73,27 +73,9 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/burt/kotlin" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Kotlin.ClassesKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,6 +100,12 @@
       <setting name="fixLineNumbers" value="false" />
       <module name="" />
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -328,26 +316,36 @@
     <option name="LAST_COMMIT_MESSAGE" value="OGU" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1378" height="249" key="GridCell.Tab.0.bottom" />
-    <state width="1378" height="249" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" />
-    <state width="1378" height="249" key="GridCell.Tab.0.center" />
-    <state width="1378" height="249" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" />
-    <state width="1378" height="249" key="GridCell.Tab.0.left" />
-    <state width="1378" height="249" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" />
-    <state width="1378" height="249" key="GridCell.Tab.0.right" />
-    <state width="1378" height="249" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" />
-    <state width="1378" height="249" key="GridCell.Tab.1.bottom" />
-    <state width="1378" height="249" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" />
-    <state width="1378" height="249" key="GridCell.Tab.1.center" />
-    <state width="1378" height="249" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" />
-    <state width="1378" height="249" key="GridCell.Tab.1.left" />
-    <state width="1378" height="249" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" />
-    <state width="1378" height="249" key="GridCell.Tab.1.right" />
-    <state width="1378" height="249" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" />
-    <state x="219" y="75" key="SettingsEditor" />
-    <state x="219" y="75" key="SettingsEditor/0.23.1440.835@0.23.1440.835" />
-    <state x="104" y="140" key="new project wizard" />
-    <state x="104" y="140" key="new project wizard/0.23.1440.835@0.23.1440.835" />
+    <state width="1378" height="249" key="GridCell.Tab.0.bottom" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.0.center" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.0.left" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.0.right" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.1.bottom" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.1.center" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.1.left" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.1.right" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
+    <state x="219" y="75" key="SettingsEditor" timestamp="1583293005701">
+      <screen x="0" y="23" width="1440" height="853" />
+    </state>
+    <state x="219" y="75" key="SettingsEditor/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
+    <state x="219" y="75" key="SettingsEditor/0.23.1440.853@0.23.1440.853" timestamp="1583293005701" />
+    <state x="376" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1583292737803">
+      <screen x="0" y="23" width="1440" height="853" />
+    </state>
+    <state x="376" y="282" key="com.intellij.ide.util.TipDialog/0.23.1440.853@0.23.1440.853" timestamp="1583292737803" />
+    <state x="104" y="140" key="new project wizard" timestamp="1583292899097">
+      <screen x="0" y="23" width="1440" height="853" />
+    </state>
+    <state x="104" y="140" key="new project wizard/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
+    <state x="104" y="140" key="new project wizard/0.23.1440.853@0.23.1440.853" timestamp="1583292899097" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

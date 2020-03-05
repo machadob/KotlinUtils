@@ -100,7 +100,7 @@ object Region { //Singelton object
 }
 
 fun main(args: Array<String>) {
-    val emp = Employee("Burton", "Machado", 77, listOf("Games", "Reading", "Cooking", "IOT"))
+    val emp = Employee("`Siddle`", "Middle", 77, listOf("Games", "Reading", "Cooking", "IOT"))
     println("Employee : " + emp)
     val customer = Customer() // new operator is not required for creating instance of a class.
     println("Name : " + customer.name)

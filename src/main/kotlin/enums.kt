@@ -49,6 +49,7 @@ enum class COLOR2(val value: Int){
 fun main(args: Array<String>) {
     val color = COLOR.BLUE
     val color1 = COLOR1.BLUE
+    val color2 = COLOR1.BLUE
     println("color : " + color.name)
     println("color : " + color.ordinal)
     println("color : " + color)
@@ -57,4 +58,5 @@ fun main(args: Array<String>) {
     println("color1 : " + color1.value)  //6
     println("color1 : " + COLOR1.YELLOW.name)
     println("color1 : " + COLOR1.YELLOW.value)
+    println("color2 : " + COLOR2.RED.text())
 }

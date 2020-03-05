@@ -7,10 +7,43 @@ enum class COLOR{
 }
 
 enum class COLOR1(val value: Int){
-    RED(-1),
+    RED(-1){
+        override fun toString(): String {
+            return "Minus 1"
+        }
+    },
     GREEN(4),
     BLUE(6),
     YELLOW(7)
+}
+
+enum class COLOR2(val value: Int){
+    RED(-1){
+        override fun text(): String {
+            TODO("Not yet implemented")
+        }
+
+        override fun toString(): String {
+            return "Minus 1"
+        }
+    },
+    GREEN(4) {
+        override fun text(): String {
+            TODO("Not yet implemented")
+        }
+    },
+    BLUE(6) {
+        override fun text(): String {
+            TODO("Not yet implemented")
+        }
+    },
+    YELLOW(7) {
+        override fun text(): String {
+            TODO("Not yet implemented")
+        }
+    };  // This is the only place in Kotlin where a semicolon (;) is mandatory.
+
+    abstract fun text():String // All instances above have to implement this abstract method.
 }
 
 fun main(args: Array<String>) {

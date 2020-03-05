@@ -24,3 +24,5 @@ Single line function with no body.
 extension functions.
 Default parameters, Named parameters for functions.
 Spread operator.
+
+Kotlin classes are final. If you need to subclass the base class should be decalred open.

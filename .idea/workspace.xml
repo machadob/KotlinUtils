@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4e881f2-5f19-4453-aac0-e902f835b404" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/enums.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/burt/kotlin/enums.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes.kt" afterDir="false" />
     </list>
@@ -56,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/kotlin/com/burt/kotlin" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin/com/burt/kotlin" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -64,15 +66,17 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/kotlin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/burt/kotlin" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/burt/kotlin" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ClassesKt">
+  <component name="RunManager" selected="Kotlin.EnumsKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -139,6 +143,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EnumsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Utils" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="EnumsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Utils" />
       <option name="VM_PARAMETERS" />
@@ -147,19 +164,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="FunctionsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoopsAndRangesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Utils" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="LoopsAndRangesKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,6 +202,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.EnumsKt" />
         <item itemvalue="Kotlin.ClassesKt" />
         <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.ConditionalsKt" />
@@ -319,26 +324,30 @@
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="398" y="180" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.838@0.23.1440.838" timestamp="1583366505686" />
-    <state width="1378" height="249" key="GridCell.Tab.0.bottom" timestamp="1583366767140">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state width="1378" height="200" key="GridCell.Tab.0.bottom" timestamp="1583369566432">
+      <screen x="0" y="23" width="1440" height="839" />
     </state>
     <state width="1378" height="249" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state width="1378" height="249" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1583366767140" />
-    <state width="1378" height="249" key="GridCell.Tab.0.center" timestamp="1583366767137">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state width="1378" height="200" key="GridCell.Tab.0.bottom/0.23.1440.839@0.23.1440.839" timestamp="1583369566432" />
+    <state width="1378" height="200" key="GridCell.Tab.0.center" timestamp="1583369566432">
+      <screen x="0" y="23" width="1440" height="839" />
     </state>
     <state width="1378" height="249" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state width="1378" height="249" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1583366767137" />
-    <state width="1378" height="249" key="GridCell.Tab.0.left" timestamp="1583366767136">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state width="1378" height="200" key="GridCell.Tab.0.center/0.23.1440.839@0.23.1440.839" timestamp="1583369566432" />
+    <state width="1378" height="200" key="GridCell.Tab.0.left" timestamp="1583369566431">
+      <screen x="0" y="23" width="1440" height="839" />
     </state>
     <state width="1378" height="249" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state width="1378" height="249" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1583366767136" />
-    <state width="1378" height="249" key="GridCell.Tab.0.right" timestamp="1583366767138">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state width="1378" height="200" key="GridCell.Tab.0.left/0.23.1440.839@0.23.1440.839" timestamp="1583369566431" />
+    <state width="1378" height="200" key="GridCell.Tab.0.right" timestamp="1583369566432">
+      <screen x="0" y="23" width="1440" height="839" />
     </state>
     <state width="1378" height="249" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state width="1378" height="249" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1583366767138" />
+    <state width="1378" height="200" key="GridCell.Tab.0.right/0.23.1440.839@0.23.1440.839" timestamp="1583369566432" />
     <state width="1378" height="249" key="GridCell.Tab.1.bottom" timestamp="1583366767142">
       <screen x="0" y="23" width="1440" height="838" />
     </state>

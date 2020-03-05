@@ -61,8 +61,12 @@ data class Employee(var firstName:String, val lastName: String, val id:Int, val 
 data class Employee1(var firstName:String, val lastName: String, val id:Int, val hobbies:List<String>){
     var ssn:String = "7777"
         set(value){
-            field="lll"
+            field="4444"
         }
+
+    override fun toString(): String { // You can override any auto generated methods in a data class.
+        return "Overridden toString() " + super.toString()
+    }
 }
 
 fun main(args: Array<String>) {

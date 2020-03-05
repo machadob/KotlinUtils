@@ -22,4 +22,6 @@ fun main(args: Array<String>) {
     println("color1 : " + color1.name)
     println("color1 : " + color1.ordinal)
     println("color1 : " + color1.value)  //6
+    println("color1 : " + COLOR1.YELLOW.name)
+    println("color1 : " + COLOR1.YELLOW.value)
 }

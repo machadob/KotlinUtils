@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4e881f2-5f19-4453-aac0-e902f835b404" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/kotlin/com/burt/kotlin" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -314,30 +315,59 @@
     <option name="LAST_COMMIT_MESSAGE" value="OGU" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1378" height="249" key="GridCell.Tab.0.bottom" timestamp="1583292611951" />
+    <state x="398" y="180" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583366505686">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="398" y="180" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.838@0.23.1440.838" timestamp="1583366505686" />
+    <state width="1378" height="249" key="GridCell.Tab.0.bottom" timestamp="1583366663150">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
     <state width="1378" height="249" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
-    <state width="1378" height="249" key="GridCell.Tab.0.center" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1583366663150" />
+    <state width="1378" height="249" key="GridCell.Tab.0.center" timestamp="1583366663149">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
     <state width="1378" height="249" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
-    <state width="1378" height="249" key="GridCell.Tab.0.left" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1583366663149" />
+    <state width="1378" height="249" key="GridCell.Tab.0.left" timestamp="1583366663149">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
     <state width="1378" height="249" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
-    <state width="1378" height="249" key="GridCell.Tab.0.right" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1583366663149" />
+    <state width="1378" height="249" key="GridCell.Tab.0.right" timestamp="1583366663150">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
     <state width="1378" height="249" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
-    <state width="1378" height="249" key="GridCell.Tab.1.bottom" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1583366663150" />
+    <state width="1378" height="249" key="GridCell.Tab.1.bottom" timestamp="1583366660674">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
     <state width="1378" height="249" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
-    <state width="1378" height="249" key="GridCell.Tab.1.center" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.1.bottom/0.23.1440.838@0.23.1440.838" timestamp="1583366660674" />
+    <state width="1378" height="249" key="GridCell.Tab.1.center" timestamp="1583366660673">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
     <state width="1378" height="249" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
-    <state width="1378" height="249" key="GridCell.Tab.1.left" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.1.center/0.23.1440.838@0.23.1440.838" timestamp="1583366660673" />
+    <state width="1378" height="249" key="GridCell.Tab.1.left" timestamp="1583366660673">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
     <state width="1378" height="249" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
-    <state width="1378" height="249" key="GridCell.Tab.1.right" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.1.left/0.23.1440.838@0.23.1440.838" timestamp="1583366660673" />
+    <state width="1378" height="249" key="GridCell.Tab.1.right" timestamp="1583366660674">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
     <state width="1378" height="249" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
+    <state width="1378" height="249" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1583366660674" />
     <state x="219" y="75" key="SettingsEditor" timestamp="1583293005701">
       <screen x="0" y="23" width="1440" height="853" />
     </state>
     <state x="219" y="75" key="SettingsEditor/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state x="219" y="75" key="SettingsEditor/0.23.1440.853@0.23.1440.853" timestamp="1583293005701" />
-    <state x="376" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1583292737803">
-      <screen x="0" y="23" width="1440" height="853" />
+    <state x="376" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1583366180628">
+      <screen x="0" y="23" width="1440" height="838" />
     </state>
+    <state x="376" y="277" key="com.intellij.ide.util.TipDialog/0.23.1440.838@0.23.1440.838" timestamp="1583366180628" />
     <state x="376" y="282" key="com.intellij.ide.util.TipDialog/0.23.1440.853@0.23.1440.853" timestamp="1583292737803" />
     <state x="104" y="140" key="new project wizard" timestamp="1583292899097">
       <screen x="0" y="23" width="1440" height="853" />
@@ -362,6 +392,11 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/variables.kt</url>
           <line>1</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/classes.kt</url>
+          <line>70</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

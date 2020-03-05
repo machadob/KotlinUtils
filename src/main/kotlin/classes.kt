@@ -54,7 +54,20 @@ class NewPerson5(val firstName:String, var lastName:String = "Doe"){ // Function
     }
 }
 
+//Data class
+data class Employee(var firstName:String, val lastName: String, val id:Int, val hobbies:List<String>)
+
+//Data class with custom setter
+data class Employee1(var firstName:String, val lastName: String, val id:Int, val hobbies:List<String>){
+    var ssn:String = "7777"
+        set(value){
+            field="lll"
+        }
+}
+
 fun main(args: Array<String>) {
+    val emp = Employee("Burton", "Machado", 77, listOf("Games", "Reading", "Cooking", "IOT"))
+    println("Employee : " + emp)
     val customer = Customer() // new operator is not required for creating instance of a class.
     println("Name : " + customer.name)
     customer.name = "Doe" // Access class property.

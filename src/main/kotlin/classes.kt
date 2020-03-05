@@ -53,7 +53,7 @@ class NewPerson5(val firstName: String, var lastName: String = "Doe") { // Funct
     }
 }
 
-//Data class
+//Data class. Data classes can also have inheritence hierarchies.
 data class Employee(var firstName: String, val lastName: String, val id: Int, val hobbies: List<String>)
 
 //Data class with custom setter

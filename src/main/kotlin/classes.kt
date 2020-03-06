@@ -105,7 +105,6 @@ class Car(val numWheels_:Int, val name_:String):Vehicle(numWheels_, name_){
     override fun getType(): String {
         return name
     }
-
 }
 
 object Region { //Singelton object

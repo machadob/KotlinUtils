@@ -318,10 +318,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="OGU" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="476" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1583369950538">
-      <screen x="0" y="23" width="1440" height="839" />
+    <state x="476" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1583457722323">
+      <screen x="0" y="23" width="1440" height="853" />
     </state>
     <state x="476" y="160" key="#com.intellij.ide.util.MemberChooser/0.23.1440.839@0.23.1440.839" timestamp="1583369950538" />
+    <state x="476" y="162" key="#com.intellij.ide.util.MemberChooser/0.23.1440.853@0.23.1440.853" timestamp="1583457722323" />
     <state x="398" y="180" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583366505686">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
@@ -376,12 +377,12 @@
     <state x="219" y="75" key="SettingsEditor/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state x="219" y="74" key="SettingsEditor/0.23.1440.838@0.23.1440.838" timestamp="1583366958060" />
     <state x="219" y="75" key="SettingsEditor/0.23.1440.853@0.23.1440.853" timestamp="1583293005701" />
-    <state x="376" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1583367107795">
-      <screen x="0" y="23" width="1440" height="839" />
+    <state x="376" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1583457351582">
+      <screen x="0" y="23" width="1440" height="853" />
     </state>
     <state x="376" y="277" key="com.intellij.ide.util.TipDialog/0.23.1440.838@0.23.1440.838" timestamp="1583366180628" />
     <state x="376" y="277" key="com.intellij.ide.util.TipDialog/0.23.1440.839@0.23.1440.839" timestamp="1583367107795" />
-    <state x="376" y="282" key="com.intellij.ide.util.TipDialog/0.23.1440.853@0.23.1440.853" timestamp="1583292737803" />
+    <state x="376" y="282" key="com.intellij.ide.util.TipDialog/0.23.1440.853@0.23.1440.853" timestamp="1583457351582" />
     <state x="104" y="140" key="new project wizard" timestamp="1583292899097">
       <screen x="0" y="23" width="1440" height="853" />
     </state>
@@ -408,7 +409,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/classes.kt</url>
-          <line>104</line>
+          <line>117</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

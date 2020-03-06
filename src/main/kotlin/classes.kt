@@ -94,6 +94,19 @@ class GoldenRetriever: Dog() {
 //    }
 }
 
+abstract class Vehicle(val numWheels:Int, val name:String){
+    fun getWheels():Int{
+        return numWheels
+    }
+    abstract fun getType():String
+}
+
+class Car(val numWheels_:Int, val name_:String):Vehicle(numWheels_, name_){
+    override fun getType(): String {
+        return name
+    }
+
+}
 
 object Region { //Singelton object
     val region = "US"

@@ -6,11 +6,13 @@ fun main(args: Array<String>) {
 
 // Tuples : Tuples were removed from Kotlin. Just use data classes. Pair and Triple can be used for 2 or 3 values.
     val pair:Pair<String, Long> = Pair("John", 77)
-    println("First value : ${pair.first} Second value : ${pair.second}")
+    println("First value : ${pair.first}, Second value : ${pair.second}")
     val triple:Triple<String, String, Long> = Triple("John","Doe", 77)
-    println("First value : ${triple.first} Second value : ${triple.second} Third value : ${triple.third}")
+    println("First value : ${triple.first}, Second value : ${triple.second}, Third value : ${triple.third}")
 
 // Deconstructing values
+    val (one, two, three) = triple
+    println("one : ${one}, two : ${two}, three : ${three}")
 
 // Exceptions
 

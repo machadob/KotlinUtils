@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4e881f2-5f19-4453-aac0-e902f835b404" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/miscellaneous.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/functions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/miscellaneous" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,26 +62,32 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/kotlin" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/com/burt/kotlin" />
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/burt/kotlin" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
     </key>
-    <key name="CreateKotlinClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/burt/kotlin" />
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.FunctionsKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,12 +112,6 @@
       <setting name="fixLineNumbers" value="false" />
       <module name="" />
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -383,12 +385,12 @@
     <state width="1378" height="249" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state width="1378" height="249" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1583366767142" />
     <state width="1358" height="150" key="GridCell.Tab.1.right/0.23.1440.853@0.23.1440.853" timestamp="1583461531051" />
-    <state x="219" y="74" key="SettingsEditor" timestamp="1583366958060">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="219" y="75" key="SettingsEditor" timestamp="1583711692867">
+      <screen x="0" y="23" width="1440" height="853" />
     </state>
     <state x="219" y="75" key="SettingsEditor/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state x="219" y="74" key="SettingsEditor/0.23.1440.838@0.23.1440.838" timestamp="1583366958060" />
-    <state x="219" y="75" key="SettingsEditor/0.23.1440.853@0.23.1440.853" timestamp="1583293005701" />
+    <state x="219" y="75" key="SettingsEditor/0.23.1440.853@0.23.1440.853" timestamp="1583711692867" />
     <state x="376" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1583457351582">
       <screen x="0" y="23" width="1440" height="853" />
     </state>

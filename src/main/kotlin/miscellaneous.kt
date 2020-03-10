@@ -41,9 +41,18 @@ fun main(args: Array<String>) {
     }
     println("retVal : $retVal")
 
+// Constants
+    PriceTypes.market // An object can be used to group constants.
+}
 
 // Constants
+object PriceTypes{
+    val market = " MARKET PRICE"
+}
 
 // Annotations
+class AnnotationTester {
+    @SuppressWarnings fun testAnnotation(){// Annotations are similar to Java.
+    }
 }
 

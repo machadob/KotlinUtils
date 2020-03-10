@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b4e881f2-5f19-4453-aac0-e902f835b404" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/miscellaneous.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/miscellaneous.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exceptions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exceptions.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/burt/kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MiscellaneousKt">
+  <component name="RunManager" selected="Kotlin.ExceptionsKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -118,19 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Utils" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ClassesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EnumsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Utils" />
       <option name="VM_PARAMETERS" />
@@ -139,6 +126,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="EnumsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Utils" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ExceptionsKt" />
         <item itemvalue="Kotlin.MiscellaneousKt" />
         <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.InterfacesKt" />
         <item itemvalue="Kotlin.EnumsKt" />
-        <item itemvalue="Kotlin.ClassesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -331,34 +331,34 @@
     </state>
     <state x="398" y="180" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.838@0.23.1440.838" timestamp="1583366505686" />
     <state x="398" y="183" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.853@0.23.1440.853" timestamp="1583461502348" />
-    <state width="1358" height="201" key="GridCell.Tab.0.bottom" timestamp="1583801146636">
+    <state width="1358" height="201" key="GridCell.Tab.0.bottom" timestamp="1583802633111">
       <screen x="0" y="23" width="1440" height="853" />
     </state>
     <state width="1378" height="249" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state width="1378" height="249" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1583366767140" />
     <state width="1378" height="200" key="GridCell.Tab.0.bottom/0.23.1440.839@0.23.1440.839" timestamp="1583604945970" />
-    <state width="1358" height="201" key="GridCell.Tab.0.bottom/0.23.1440.853@0.23.1440.853" timestamp="1583801146636" />
-    <state width="1358" height="201" key="GridCell.Tab.0.center" timestamp="1583801146635">
+    <state width="1358" height="201" key="GridCell.Tab.0.bottom/0.23.1440.853@0.23.1440.853" timestamp="1583802633111" />
+    <state width="1358" height="201" key="GridCell.Tab.0.center" timestamp="1583802633110">
       <screen x="0" y="23" width="1440" height="853" />
     </state>
     <state width="1378" height="249" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state width="1378" height="249" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1583366767137" />
     <state width="1378" height="200" key="GridCell.Tab.0.center/0.23.1440.839@0.23.1440.839" timestamp="1583604945970" />
-    <state width="1358" height="201" key="GridCell.Tab.0.center/0.23.1440.853@0.23.1440.853" timestamp="1583801146635" />
-    <state width="1358" height="201" key="GridCell.Tab.0.left" timestamp="1583801146635">
+    <state width="1358" height="201" key="GridCell.Tab.0.center/0.23.1440.853@0.23.1440.853" timestamp="1583802633110" />
+    <state width="1358" height="201" key="GridCell.Tab.0.left" timestamp="1583802633110">
       <screen x="0" y="23" width="1440" height="853" />
     </state>
     <state width="1378" height="249" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state width="1378" height="249" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1583366767136" />
     <state width="1378" height="200" key="GridCell.Tab.0.left/0.23.1440.839@0.23.1440.839" timestamp="1583604945969" />
-    <state width="1358" height="201" key="GridCell.Tab.0.left/0.23.1440.853@0.23.1440.853" timestamp="1583801146635" />
-    <state width="1358" height="201" key="GridCell.Tab.0.right" timestamp="1583801146635">
+    <state width="1358" height="201" key="GridCell.Tab.0.left/0.23.1440.853@0.23.1440.853" timestamp="1583802633110" />
+    <state width="1358" height="201" key="GridCell.Tab.0.right" timestamp="1583802633110">
       <screen x="0" y="23" width="1440" height="853" />
     </state>
     <state width="1378" height="249" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state width="1378" height="249" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1583366767138" />
     <state width="1378" height="200" key="GridCell.Tab.0.right/0.23.1440.839@0.23.1440.839" timestamp="1583604945970" />
-    <state width="1358" height="201" key="GridCell.Tab.0.right/0.23.1440.853@0.23.1440.853" timestamp="1583801146635" />
+    <state width="1358" height="201" key="GridCell.Tab.0.right/0.23.1440.853@0.23.1440.853" timestamp="1583802633110" />
     <state width="1358" height="150" key="GridCell.Tab.1.bottom" timestamp="1583461531051">
       <screen x="0" y="23" width="1440" height="853" />
     </state>

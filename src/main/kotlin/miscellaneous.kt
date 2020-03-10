@@ -5,6 +5,7 @@ fun main(args: Array<String>) {
 // Type casting
 //if(obj is Employee){  // If you check to see if an object is of a particular type, you do not have to type cast it
 //    obj.getName()     // to that type. Here we did not have to type cast obj to an Employee.
+//    val emp = obj as Employee // Can also do thisgit
 //}
 
 // Tuples : Tuples were removed from Kotlin. Just use data classes. Pair and Triple can be used for 2 or 3 values.

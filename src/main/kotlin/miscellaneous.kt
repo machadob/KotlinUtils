@@ -13,6 +13,10 @@ fun main(args: Array<String>) {
 // Deconstructing values
     val (one, two, three) = triple
     println("one : ${one}, two : ${two}, three : ${three}")
+// Deconstructing values from a data class.
+    data class Customer(var firstName: String, var lastName:String, var id:Int, var city:String)
+    val customer = Customer("John", "Doe", 7, "NY")
+    val (firstName, lastName, id, city) = customer // Deconstruct the values.
 
 // Exceptions
 

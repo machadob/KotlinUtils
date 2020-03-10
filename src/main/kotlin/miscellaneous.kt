@@ -17,6 +17,11 @@ fun main(args: Array<String>) {
     data class Customer(var firstName: String, var lastName:String, var id:Int, var city:String)
     val customer = Customer("John", "Doe", 7, "NY")
     val (firstName, lastName, id, city) = customer // Deconstruct the values.
+// Deconstruction in for loops.
+    val listAnimalTypes = listOf(Pair("Dog", "Mammal"), "Tuna" to "Fish") // Note the second pair - Another way.
+    for((name, type) in listAnimalTypes){ // Deconstruct each pair in a for loop.
+        println("Name : $name, Type : $type")
+    }
 
 // Exceptions
 

@@ -39,5 +39,6 @@ fun main(args: Array<String>) {
     printStrings("1", "2", "4")
     println(f(7))
     println(g(4, 7))
-
+    println(ff({x:Int, y:Int -> x*x + y*y},5,6)) // Invoke Higher order function.
+    println(ff(::sum, 5, 6)) // Invoke Higher order function.
 }

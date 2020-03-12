@@ -402,6 +402,10 @@
     </state>
     <state x="104" y="140" key="new project wizard/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state x="104" y="103" key="new project wizard/0.23.1440.853@0.23.1440.853" timestamp="1583808768261" />
+    <state x="482" y="87" key="refactoring.ChangeSignatureDialog" timestamp="1583977544436">
+      <screen x="0" y="23" width="1440" height="854" />
+    </state>
+    <state x="482" y="87" key="refactoring.ChangeSignatureDialog/0.23.1440.854@0.23.1440.854" timestamp="1583977544436" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

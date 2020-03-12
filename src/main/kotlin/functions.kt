@@ -1,4 +1,8 @@
-
+class Database { // Define a helper class for demo later.
+    fun commit() {
+        TODO("Not yet implemented")
+    }
+}
 
 fun myAdd(i:Int, j:Int) = i + j  //return type inferred. Single line function with no body.
 
@@ -27,8 +31,18 @@ val f = {x:Int -> x*x} // A function variable. Invoke this with f(<param>)  e.g.
 val g = {x:Int, y:Int -> x*x + y*y} // Funtion taking more then one parameter.
 
 fun sum(x:Int, y:Int):Int = x + y
-val ff:(((Int, Int) -> Int), Int, Int) -> Int = {g, x:Int, y:Int -> g(x, y)} // Higher order function.
-val gg:(((Int, Int) -> Int), Int, Int) -> Int = {sum, x:Int, y:Int -> sum(x, y)} // Higher order function.
+fun square(x:Int) = x*x
+val ff:(((Int, Int) -> Int), Int, Int) -> Int = {g, x, y -> g(x, y)} // Higher order function.
+val gg:(((Int, Int) -> Int), Int, Int) -> Int = {sum, x, y -> sum(x, y)} // Higher order function.
+val hh:(((Int) -> Int), Int) -> Int = {op, x -> op(x)} // Higher order function.
+fun unary(f1:(Int)->Int){}
+fun transaction(db:Database, code:()->Unit){
+    try{
+        code()
+    }finally{
+        db.commit()
+    }
+}
 
 fun main(args: Array<String>) {
     println(defParams(2))
@@ -39,6 +53,15 @@ fun main(args: Array<String>) {
     printStrings("1", "2", "4")
     println(f(7))
     println(g(4, 7))
-    println(ff({x:Int, y:Int -> x*x + y*y},5,6)) // Invoke Higher order function.
+    println(ff({x, y -> x*x + y*y},5,6)) // Invoke Higher order function. Types for x and y are inferred.
     println(ff(::sum, 5, 6)) // Invoke Higher order function.
+    println(hh({it*it}, 7)) // Use implicit it argument.
+    unary {// Look at this. This pattern is used for writing DSLs.
+        it*it
+    }
+
+    val db = Database()
+    transaction(db){ // This is again a DSL pattern.
+        //Execute code here. Exception and Resource handling will be taken care of in the transaction function.
+    }
 }

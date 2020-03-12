@@ -78,7 +78,7 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/burt/kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ExceptionsKt">
+  <component name="RunManager" selected="Kotlin.FunctionsKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -204,9 +204,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.ExceptionsKt" />
         <item itemvalue="Kotlin.MiscellaneousKt" />
-        <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.InterfacesKt" />
         <item itemvalue="Kotlin.EnumsKt" />
       </list>

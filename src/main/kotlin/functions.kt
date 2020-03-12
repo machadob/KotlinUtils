@@ -35,7 +35,9 @@ fun square(x:Int) = x*x
 val ff:(((Int, Int) -> Int), Int, Int) -> Int = {g, x, y -> g(x, y)} // Higher order function.
 val gg:(((Int, Int) -> Int), Int, Int) -> Int = {sum, x, y -> sum(x, y)} // Higher order function.
 val hh:(((Int) -> Int), Int) -> Int = {op, x -> op(x)} // Higher order function.
-fun unary(f1:(Int)->Int){}
+fun unary(f1:(Int)->Int){} // Look at the usage of this function below.
+fun unaryOp(x:Int, op:(Int)->Int){}
+
 fun transaction(db:Database, code:()->Unit){
     try{
         code()
@@ -59,7 +61,7 @@ fun main(args: Array<String>) {
     unary {// Look at this. This pattern is used for writing DSLs.
         it*it
     }
-
+    unaryOp(4, fun(x:Int):Int{return x*x}) // Anonymous function pattern. Used in DSLs.
     val db = Database()
     transaction(db){ // This is again a DSL pattern. Notice the second closure argument outside the brackets.
         //Execute code here. Exception and Resource handling will be taken care of in the transaction function.

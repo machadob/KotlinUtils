@@ -61,7 +61,7 @@ fun main(args: Array<String>) {
     }
 
     val db = Database()
-    transaction(db){ // This is again a DSL pattern.
+    transaction(db){ // This is again a DSL pattern. Notice the second closure argument outside the brackets.
         //Execute code here. Exception and Resource handling will be taken care of in the transaction function.
     }
 }

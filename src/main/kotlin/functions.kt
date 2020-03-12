@@ -26,16 +26,18 @@ val f = {x:Int -> x*x} // A function variable. Invoke this with f(<param>)  e.g.
 
 val g = {x:Int, y:Int -> x*x + y*y} // Funtion taking more then one parameter.
 
-val sum: (Int, Int) -> Int = { x: Int, y: Int -> x + y }
-val ff:(((Int, Int) -> Int), Int) -> Int = {g, x:Int -> f(x)} // Higher order function.
+fun sum(x:Int, y:Int):Int = x + y
+val ff:(((Int, Int) -> Int), Int, Int) -> Int = {g, x:Int, y:Int -> g(x, y)} // Higher order function.
+val gg:(((Int, Int) -> Int), Int, Int) -> Int = {sum, x:Int, y:Int -> sum(x, y)} // Higher order function.
 
 fun main(args: Array<String>) {
     println(defParams(2))
-    println(myAdd1(2,3 ))
-    println(myAdd(i=8, j=7)) //Named parameters
+    println(myAdd1(2, 3))
+    println(myAdd(i = 8, j = 7)) //Named parameters
     printStrings("1")
     printStrings("1", "2")
     printStrings("1", "2", "4")
     println(f(7))
     println(g(4, 7))
+
 }

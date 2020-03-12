@@ -46,6 +46,13 @@ fun transaction(db:Database, code:()->Unit){
     }
 }
 
+//Closure
+fun myFun(){
+    for(num in 1..10){
+        unaryOp(10, {x->println(num); x*num})
+    }
+}
+
 fun main(args: Array<String>) {
     println(defParams(2))
     println(myAdd1(2, 3))
@@ -66,4 +73,5 @@ fun main(args: Array<String>) {
     transaction(db){ // This is again a DSL pattern. Notice the second closure argument outside the brackets.
         //Execute code here. Exception and Resource handling will be taken care of in the transaction function.
     }
+    myFun() //This demonstrates a Closure.
 }

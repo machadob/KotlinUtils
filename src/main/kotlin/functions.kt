@@ -57,7 +57,9 @@ fun myFun(){
     }
 }
 
-//Extension functions.
+//Extension functions. To use extension functions in another file import the package containing the extension function.
+// If you create an extension function identical (with the same name and signature) to a class function,
+// the class function will take precedence. You can create one by changing the signature, e.g. different no of args.
 fun String.hello(){
     println("I am a extended String")
 }

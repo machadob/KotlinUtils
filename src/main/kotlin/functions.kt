@@ -72,6 +72,18 @@ fun String.decorate(arg:String):String{ // Extension functions can also take arg
     return (this.split(" ").joinToString(" "){it.capitalize()}) + arg
 }
 
+// Extension functions are not polymorphic. See example below and example calls in the main function.
+open class Base
+class Derived : Base()
+fun Base.ext(){
+    println("In Base extension method")
+}
+fun Derived.ext(){
+    println("In Derived extension method")
+}
+//val myInstance:Base = Derived()
+// myInstance.ext() // This prints "In Base extension method"
+
 fun main(args: Array<String>) {
     println(defParams(2))
     println(myAdd1(2, 3))
@@ -96,4 +108,8 @@ fun main(args: Array<String>) {
     "test".hello()
     println("this is a test of a decorated string".decorate())
     println("this is a yet another test of a decorated string".decorate(".......Arg"))
+    val myInstance:Base = Derived()
+    myInstance.ext()
+    val myInstance1 = Derived()
+    myInstance1.ext()
 }

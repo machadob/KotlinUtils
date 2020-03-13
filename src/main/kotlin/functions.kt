@@ -62,7 +62,7 @@ fun String.hello(){
     println("I am a extended String")
 }
 
-fun String.decorate():String{
+fun String.decorate():String{ // Notice the this. It represents the object that is being operated upon.
     return this.split(" ").joinToString(" "){it.capitalize()}
 }
 

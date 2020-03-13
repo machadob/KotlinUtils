@@ -66,6 +66,10 @@ fun String.decorate():String{ // Notice the this. It represents the object that 
     return this.split(" ").joinToString(" "){it.capitalize()}
 }
 
+fun String.decorate(arg:String):String{ // Extension functions can also take arguments.
+    return (this.split(" ").joinToString(" "){it.capitalize()}) + arg
+}
+
 fun main(args: Array<String>) {
     println(defParams(2))
     println(myAdd1(2, 3))
@@ -89,4 +93,5 @@ fun main(args: Array<String>) {
     myFun() //This demonstrates a Closure.
     "test".hello()
     println("this is a test of a decorated string".decorate())
+    println("this is a yet another test of a decorated string".decorate(".......Arg"))
 }

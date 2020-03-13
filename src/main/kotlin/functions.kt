@@ -1,6 +1,6 @@
 class Database { // Define a helper class for demo later.
     fun commit() {
-        TODO("Not yet implemented")
+        println("Committing ......")
     }
 }
 
@@ -49,8 +49,21 @@ fun transaction(db:Database, code:()->Unit){
 //Closure
 fun myFun(){
     for(num in 1..10){
-        unaryOp(10, {x->println(num); x*num})
+        println("Printing .........")
+        unaryOp(10, {
+            x->println(num)
+            x*num
+        })
     }
+}
+
+//Extension functions.
+fun String.hello(){
+    println("I am a extended String")
+}
+
+fun String.decorate():String{
+    return this.split(" ").joinToString(" "){it.capitalize()}
 }
 
 fun main(args: Array<String>) {
@@ -74,4 +87,6 @@ fun main(args: Array<String>) {
         //Execute code here. Exception and Resource handling will be taken care of in the transaction function.
     }
     myFun() //This demonstrates a Closure.
+    "test".hello()
+    println("this is a test of a decorated string".decorate())
 }

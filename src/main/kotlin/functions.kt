@@ -1,3 +1,5 @@
+import java.lang.StringBuilder
+
 class Database { // Define a helper class for demo later.
     fun commit() {
         println("Committing ......")
@@ -145,11 +147,16 @@ class MyVector(val p1:Int, val p2:Int){
         return MyVector(this.p1 + v.p1, this.p2 + v.p2)
     }
 }
-fun addVectors(v1:MyVector, v2:MyVector):MyVector{
+fun addVectorsTest(v1:MyVector, v2:MyVector):MyVector{
     return v1 + v2
+}
+// Operators as extension functions.
+operator fun StringBuilder.plus(stringBuilder:StringBuilder){
+    stringBuilder.forEach { this.append(it) }
 }
 
 // Lambda extensions.
+
 
 fun main(args: Array<String>) {
     println(defParams(2))

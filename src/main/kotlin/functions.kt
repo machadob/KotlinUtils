@@ -92,8 +92,22 @@ fun outerFun(i:Int):Int{
     return innerFun(i)
 }
 
-// Infix functions. Only extension functions can be infix. See example call in main.
+// Infix functions. Only extension functions or member function with single parameters can be infix. See example call in main.
 infix fun String.isEqualTo(s:String) = this == s
+
+// Anonymous functions.
+fun myOp(i:Int, operation: (Int) -> Int):Int {
+    return operation(i)
+}
+fun anonTest(){ //Look in main for an example call.
+    println(myOp(4, fun (x):Int{return x*x})) // Pass anonymous function, instead of a lambda, to function myOp.
+}
+
+// Inline functions.
+
+// Operator overloading.
+
+// Lambda extensions.
 
 fun main(args: Array<String>) {
     println(defParams(2))
@@ -126,4 +140,5 @@ fun main(args: Array<String>) {
     println("outerFun(7) ${outerFun(7)}")
     val testResult = "Test"
     println(testResult isEqualTo "Test") // Call extension function with infix notation.
+    anonTest(); // Test anonymous function.
 }

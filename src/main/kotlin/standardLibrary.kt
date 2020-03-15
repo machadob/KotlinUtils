@@ -36,10 +36,18 @@ fun main(args: Array<String>) {
     // Filter, Map and Sort in one pipeline.
     val filteredAndMappedAndSortedList = fullList.filter { it > 10 }.map { IdHolder(it) }.sortedBy { it.id }
     println(filteredAndMappedAndSortedList)
-
     // FlatMap example.
     val complexList = listOf(((1..20).shuffled()).toList(), ((21..40).shuffled()).toList())
     val filteredComplexList = complexList.flatMap { it.filter { it>10 } }.sortedBy { it }
     println(filteredComplexList)
+    // Lazy evaluation with Sequences. Sequences are passed on forward to the pipeline as soon as conditions are fullfilled.
+    val seqList = fullList.asSequence().filter { it > 10 }.map { IdHolder(it) }.sortedBy { it.id }
+    println(seqList)
+    val nums = 1..100000000
+    val result = nums.asSequence().take(10).sum()
+    println(result)
+    val genList = generateSequence(1) {x -> x*x  }
+    val genResult = genList.take(10).sum()
+    println(genResult)
 }
 

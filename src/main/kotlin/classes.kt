@@ -1,3 +1,5 @@
+import com.burt.kotlin.NewPerson
+
 class AirPlane  //A very simple class
 
 class Customer {

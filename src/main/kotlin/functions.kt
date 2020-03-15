@@ -185,6 +185,17 @@ fun testLambdaExtensions(){
     }
 }
 
+// The invoke operator
+class TestInvoke(){
+    operator fun invoke(){
+        println("In Invoke of class TestInvoke")
+    }
+}
+fun testInvoke(args: Array<String>) {
+    val testInvoke = TestInvoke()
+    testInvoke()
+}
+
 fun main(args: Array<String>) {
     println(defParams(2))
     println(myAdd1(2, 3))

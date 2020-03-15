@@ -137,7 +137,15 @@ fun enclosingFunction1(){
     }
     println("End of enclosingFunction1()")
 }
-
+// Tail recursion. For instructing compiler to use tail recursion use the key word 'tailrec' before the method.
+class MyVector(val p1:Int, val p2:Int){
+    operator fun plus(v:MyVector):MyVector{ // Overload the '+' operator with the function 'plus'. Note: keyword operator.
+        return MyVector(this.p1 + v.p1, this.p2 + v.p2)
+    }
+}
+fun addVectors(v1:MyVector, v2:MyVector):MyVector{
+    return v1 + v2
+}
 // Operator overloading.
 
 // Lambda extensions.

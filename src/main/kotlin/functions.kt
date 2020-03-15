@@ -84,9 +84,11 @@ fun Derived.ext(){
 //val myInstance:Base = Derived()
 // myInstance.ext() // This prints "In Base extension method"
 
-// Local functions.
+// Local functions. You cannot access local functions from outside it's scope.
+// e.g. innerFun cannot be accessed outside outerFun
 fun outerFun(i:Int):Int{
-    fun innerFun(j:Int):Int = j*j
+    val num = 4
+    fun innerFun(j:Int):Int = num*j  // Local function. Access num which is in outer scope of innerFun.
     return innerFun(i)
 }
 

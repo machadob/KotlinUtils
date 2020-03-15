@@ -10,6 +10,9 @@ fun main(args: Array<String>) {
     mutableList.add("Phoenix")
     mutableList.forEach{println(it)}
 
+    val boolArray = booleanArrayOf(true, false, true, false)
+    val charArray = charArrayOf('A', 'B', 'C', 'D')
+
     // HashMap. Notice the different ways of creating Map entries.
     val map = hashMapOf("One" to 1, "Two" to 1, Pair("Three", 3), Pair("Four", 4))
     map.forEach { k, v ->  println("Key : $k, Value: $v")}

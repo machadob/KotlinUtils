@@ -21,15 +21,20 @@ fun main(args: Array<String>) {
 
     // Filter, Map, FlatMap etc.
     data class IdHolder(var id:Int)
-    val fullList = ((1..20).shuffled()).toList() // Create list of nummbers.
-    println(fullList) // Filter the list.
+    // Create list of Random numbers.
+    val fullList = ((1..20).shuffled()).toList()
+    println(fullList)
+    // Filter the list.
     val filteredList = fullList.filter { it > 10 }
     println(filteredList)
-    val mappedList = filteredList.map { IdHolder(it) } // Map the filtered list to IdHolder objects.
+    // Map the filtered list to IdHolder objects.
+    val mappedList = filteredList.map { IdHolder(it) }
     println(mappedList)
-    val filteredAndMappedList = fullList.filter { it > 10 }.map { IdHolder(it) } // Filter and Map in one pipeline.
+    // Filter and Map in one pipeline.
+    val filteredAndMappedList = fullList.filter { it > 10 }.map { IdHolder(it) }
     println(filteredAndMappedList)
-    val filteredAndMappedAndSortedList = fullList.filter { it > 10 }.map { IdHolder(it) }.sortedBy { it.id } // Filter, Map, Sort in one pipeline.
+    // Filter, Map and Sort in one pipeline.
+    val filteredAndMappedAndSortedList = fullList.filter { it > 10 }.map { IdHolder(it) }.sortedBy { it.id }
     println(filteredAndMappedAndSortedList)
 
 }

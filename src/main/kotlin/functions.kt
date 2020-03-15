@@ -117,25 +117,25 @@ inline fun myOps(i:Int, operation: (Int) -> Int):Int { // TODO: Explore the keyw
     return operation(i)
 }
 
-// Local returns.
-fun enclosingFuntion(){
+// Local returns (returning from local lambdas) . Local returns are not allowed from functions that are inlined.
+fun enclosingFunction(){
     val intList = 1..100
     intList.forEach{
         if(it >7){
-            return@forEach // This (local return) only returns from the forEach loop instead of enclosingFuntion,
+            return@forEach // This (local return) only returns from the forEach loop instead of enclosingFunction,
             // sp it will execute the println.
         }
     }
-    println("End of enclosingFuntion()")
+    println("End of enclosingFunction()")
 }
-fun enclosingFuntion1(){
+fun enclosingFunction1(){
     val intList = 1..100
     intList.forEach mylabel@ {// Custom label for a local return.
         if(it >7){
             return@mylabel // Use custom label for a local return.
         }
     }
-    println("End of enclosingFuntion1()")
+    println("End of enclosingFunction1()")
 }
 
 // Operator overloading.

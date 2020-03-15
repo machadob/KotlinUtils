@@ -1,3 +1,4 @@
+import java.io.File
 import java.lang.Exception
 import java.sql.SQLException
 
@@ -44,7 +45,18 @@ fun main(args: Array<String>) {
 
 // Constants
     PriceTypes.market // An object can be used to group constants.
+
+// with
+    val file = File("/Users/burton/test.txt")
+    with(file){
+        println(canExecute())
+        println(canRead())
+        println(canWrite())
+    }
 }
+
+//let TODO: Implement an example with let.
+
 
 // Constants
 object PriceTypes{

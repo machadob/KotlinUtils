@@ -155,7 +155,7 @@ operator fun StringBuilder.plus(stringBuilder:StringBuilder){
     stringBuilder.forEach { this.append(it) }
 }
 
-// Lambda extensions. See the full example below and note how it leads to a DSL like syntax in the testLambdaExtensions function.
+// Lambda extensions. See the full example below and note how it leads to DSL like syntax in the testLambdaExtensions function.
 class Request(val method:String, val query:String, val contentType:String)
 class Response (var contents:String, var status:Status){
     fun status(status: Status.() -> Unit){

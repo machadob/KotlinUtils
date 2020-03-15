@@ -117,7 +117,24 @@ inline fun myOps(i:Int, operation: (Int) -> Int):Int { // TODO: Explore the keyw
 }
 
 // Local returns.
-
+fun enclosingFuntion(){
+    val intList = 1..100
+    intList.forEach{
+        if(it >7){
+            return@forEach // This (local return) only returns from the forEach loop instead of enclosingFuntion, sp it will execute the println.
+        }
+    }
+    println("End of enclosingFuntion()")
+}
+fun enclosingFuntion1(){
+    val intList = 1..100
+    intList.forEach mylabel@ {// Custom label for a local return.
+        if(it >7){
+            return@mylabel // Use custom label for a local return.
+        }
+    }
+    println("End of enclosingFuntion1()")
+}
 
 // Operator overloading.
 

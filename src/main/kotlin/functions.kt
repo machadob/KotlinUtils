@@ -92,6 +92,9 @@ fun outerFun(i:Int):Int{
     return innerFun(i)
 }
 
+// Infix functions. Only extension functions can be infix. See example call in main.
+infix fun String.isEqualTo(s:String) = this == s
+
 fun main(args: Array<String>) {
     println(defParams(2))
     println(myAdd1(2, 3))
@@ -121,4 +124,6 @@ fun main(args: Array<String>) {
     val myInstance1 = Derived()
     myInstance1.ext()
     println("outerFun(7) ${outerFun(7)}")
+    val testResult = "Test"
+    println(testResult isEqualTo "Test") // Call extension function with infix notation.
 }

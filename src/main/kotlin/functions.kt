@@ -110,7 +110,14 @@ fun anonTest(){ //Look in main for an example call.
     })) // Pass anonymous function, instead of a lambda, to function myOp.
 } //With anonymous function you can specify return types and also have multiple return points which is not possible with lambdas.
 
-// Inline functions.
+// Inline functions. Inlining will copy-paste the contents of the function at the point of call. Suggested only for higher order functions.
+// You cannot store a reference to an inlined function is a variable.
+inline fun myOps(i:Int, operation: (Int) -> Int):Int { // TODO: Explore the keyword noinline
+    return operation(i)
+}
+
+// Local returns.
+
 
 // Operator overloading.
 

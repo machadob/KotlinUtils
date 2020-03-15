@@ -39,7 +39,7 @@ fun main(args: Array<String>) {
 
     // FlatMap example.
     val complexList = listOf(((1..20).shuffled()).toList(), ((21..40).shuffled()).toList())
-    val filteredComplexList = complexList.flatMap { it.filter { it>10 } }
+    val filteredComplexList = complexList.flatMap { it.filter { it>10 } }.sortedBy { it }
     println(filteredComplexList)
 }
 

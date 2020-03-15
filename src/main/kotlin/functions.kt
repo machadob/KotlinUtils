@@ -84,6 +84,12 @@ fun Derived.ext(){
 //val myInstance:Base = Derived()
 // myInstance.ext() // This prints "In Base extension method"
 
+// Local functions.
+fun outerFun(i:Int):Int{
+    fun innerFun(j:Int):Int = j*j
+    return innerFun(i)
+}
+
 fun main(args: Array<String>) {
     println(defParams(2))
     println(myAdd1(2, 3))
@@ -112,4 +118,5 @@ fun main(args: Array<String>) {
     myInstance.ext()
     val myInstance1 = Derived()
     myInstance1.ext()
+    println("outerFun(7) ${outerFun(7)}")
 }

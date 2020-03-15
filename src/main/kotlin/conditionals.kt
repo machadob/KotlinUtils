@@ -16,14 +16,20 @@ fun main(args: Array<String>) {
     // You have to return the same types from if and else and the else condition is mandatory.
 
     when(result){ // When is like a case statement.
-        is String -> print("is String")
-        "value" -> print("value")
+        is String -> println("is String")
+        "value" -> println("value")
     }
 
     val res = when(result){ // When is like a case statement.
         is String -> "is String"
         "value" -> "value"
         else -> "def" // If using when in an expression, else is not optional.
+    }
+
+    val list = listOf(1, 2, 3, 4)
+    // in keyword
+    if(1 in list){
+        println(" 1 is in list")
     }
 }
 

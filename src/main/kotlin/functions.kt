@@ -100,8 +100,15 @@ fun myOp(i:Int, operation: (Int) -> Int):Int {
     return operation(i)
 }
 fun anonTest(){ //Look in main for an example call.
-    println(myOp(4, fun (x):Int{return x*x})) // Pass anonymous function, instead of a lambda, to function myOp.
-}
+    println(myOp(4, fun (x):Int{  // Anonymous functions can specify a return type which is not possible with lambdas.
+        if (x <= 4) {
+            return x * x // Anonymous functions allow more than one return point which is not possible with lambdas.
+        } else {
+            return 4 * x // Anonymous functions allow more than one return point which is not possible with lambdas.
+        }
+
+    })) // Pass anonymous function, instead of a lambda, to function myOp.
+} //With anonymous function you can specify return types and also have multiple return points which is not possible with lambdas.
 
 // Inline functions.
 

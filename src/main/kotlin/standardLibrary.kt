@@ -37,5 +37,9 @@ fun main(args: Array<String>) {
     val filteredAndMappedAndSortedList = fullList.filter { it > 10 }.map { IdHolder(it) }.sortedBy { it.id }
     println(filteredAndMappedAndSortedList)
 
+    // FlatMap example.
+    val complexList = listOf(((1..20).shuffled()).toList(), ((21..40).shuffled()).toList())
+    val filteredComplexList = complexList.flatMap { it.filter { it>10 } }
+    println(filteredComplexList)
 }
 

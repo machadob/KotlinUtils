@@ -25,11 +25,5 @@ fun main(args: Array<String>) {
         "value" -> "value"
         else -> "def" // If using when in an expression, else is not optional.
     }
-
-    val list = listOf(1, 2, 3, 4)
-    // in keyword
-    if(1 in list){
-        println(" 1 is in list")
-    }
 }
 

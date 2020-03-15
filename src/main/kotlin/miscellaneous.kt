@@ -53,6 +53,12 @@ fun main(args: Array<String>) {
         println(canRead())
         println(canWrite())
     }
+
+    val list = listOf(1, 2, 3, 4)
+    // in keyword
+    if(1 in list){
+        println(" 1 is in list")
+    }
 }
 
 //let TODO: Implement an example with let.

@@ -109,6 +109,16 @@ class Car(val numWheels_:Int, val name_:String):Vehicle(numWheels_, name_){
     }
 }
 
+// Late initialization.
+
+// Nested classes.
+
+// Companion objects.
+
+// Hiding Constructors
+
+// Sealed classes.
+
 object Region { //Singelton object
     val region = "US"
 }

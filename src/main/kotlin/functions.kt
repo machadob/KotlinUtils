@@ -196,6 +196,10 @@ fun testInvoke(args: Array<String>) {
     testInvoke()
 }
 
+// Function Composition.
+
+// Currying.
+
 fun main(args: Array<String>) {
     println(defParams(2))
     println(myAdd1(2, 3))

@@ -125,8 +125,13 @@ class Car(val numWheels_:Int, val name_:String):Vehicle(numWheels_, name_){
 class Nester(val user:String){
     class Nested(){
         fun nestedFun(){
-            //println(user.length) // You need a Nested class to use "user" variable from the outer class. See Inner class below.
+            //println(user.length) // This does not work. A Nested class is just like a name space.
+            // You need a Nested class to use "user" variable from the outer class. See Inner class section below.
         }
+    }
+    fun nesterFun(){
+        val nested = Nested()
+        nested.nestedFun()
     }
 }
 

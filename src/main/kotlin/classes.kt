@@ -155,13 +155,12 @@ fun testInner(){
     inner.innerFun()
 }
 
-// Companion objects.
+// Companion objects. (Also demonstrates// Hiding Constructors)
 // Each class can only have a single companion object.
-class Logger(){
-    companion object Factory{
+class Logger private constructor(){ // private constructor prevents direct instantiation. Singleton Pattern
+    companion object Factory{// private constructor is optional.
         fun createLogger(logFileName:String):Logger = Logger()
     }
-
     constructor(logFileName: String):this(){
 
     }
@@ -171,9 +170,14 @@ fun testLogger(){
     val logger = Logger.createLogger("test.log") // Use the method create logger directly like a static method.
 }
 
-// Hiding Constructors
 
 // Sealed classes.
+// If a class a defined as sealed, another class can subclass it only in the same file.
+sealed class MyBase()
+class MyDerived():Base()
+
+
+// Type aliases.
 
 object Region { //Singelton object
     val region = "US"

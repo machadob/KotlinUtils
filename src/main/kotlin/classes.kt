@@ -135,22 +135,41 @@ class Nester(val user:String){
 }
 
 fun testNester(){
-
+    val nested = Nester.Nested()
 }
 
 // Inner class.
 class Outer(val user:String){
     inner class Inner(){
         fun innerFun(){
-            println(user.length)
+            println(user.length) // Can access user from the outer class.
         }
     }
     fun nesterFun(){
         val nested = Inner()
-        Outer().nestedFun()
+//        Outer().nestedFun()
     }
 }
+fun testInner(){
+    val inner = Outer("John").Inner()
+    inner.innerFun()
+}
+
 // Companion objects.
+// Each class can only have a single companion object.
+class Logger(){
+    companion object Factory{
+        fun createLogger(logFileName:String):Logger = Logger()
+    }
+
+    constructor(logFileName: String):this(){
+
+    }
+}
+
+fun testLogger(){
+    val logger = Logger.createLogger("test.log") // Use the method create logger directly like a static method.
+}
 
 // Hiding Constructors
 

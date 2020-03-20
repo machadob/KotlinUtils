@@ -183,7 +183,7 @@ object Region { //Singelton object
     val region = "US"
 }
 
-// Delegates (Delegation)
+// Delegates (Delegation) -- Delegating member functions.
 interface MyLogger{ // Only interfaces can be delegeted.
     fun log(message:String);
 }

@@ -171,13 +171,13 @@ fun testLogger(){
 }
 
 
-// Sealed classes.
+// Sealed classes. (Can be used for switching instead of if statements)
 // If a class a defined as sealed, another class can subclass it only in the same file.
 sealed class MyBase()
 class MyDerived():Base()
 
-
 // Type aliases.
+typealias name = String // Can use type name in place to String to make code more readable, or in DSLs.
 
 object Region { //Singelton object
     val region = "US"

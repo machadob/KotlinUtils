@@ -121,7 +121,6 @@ class Car(val numWheels_:Int, val name_:String):Vehicle(numWheels_, name_){
 }
 
 // Nested classes.
-
 class Nester(val user:String){
     class Nested(){
         fun nestedFun(){
@@ -135,8 +134,22 @@ class Nester(val user:String){
     }
 }
 
-// Inner class.
+fun testNester(){
 
+}
+
+// Inner class.
+class Outer(val user:String){
+    inner class Inner(){
+        fun innerFun(){
+            println(user.length)
+        }
+    }
+    fun nesterFun(){
+        val nested = Inner()
+        Outer().nestedFun()
+    }
+}
 // Companion objects.
 
 // Hiding Constructors

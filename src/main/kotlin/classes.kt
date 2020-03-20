@@ -111,7 +111,7 @@ class Car(val numWheels_:Int, val name_:String):Vehicle(numWheels_, name_){
 
 // Late initialization.
  class TestPerson{
-    lateinit var firstName:String  // Mark the property with lateinit if you don't want to initialize it immediately abd be non-null.
+    lateinit var firstName:String  // Property with lateinit. If you don't want to initialize it immediately and be non-null.
 
     fun getPerson():String{
         return firstName

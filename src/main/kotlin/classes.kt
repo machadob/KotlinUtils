@@ -183,6 +183,25 @@ object Region { //Singelton object
     val region = "US"
 }
 
+// Delegates (Delegation)
+interface MyLogger{ // Only interfaces can be delegeted.
+    fun log(message:String);
+}
+class Myapp(myLogger:MyLogger): MyLogger by myLogger{
+    fun testLogger(){
+        log("Test Message") // Call log method from the delegate directly;
+    }
+}
+fun testDelegate(){ // This function tests Delegates.
+    class MyLoggerImpl:MyLogger{
+        override fun log(message: String) {
+            println(message)
+        }
+    }
+    val myApp = Myapp(MyLoggerImpl())
+    myApp.testLogger()
+}
+
 fun main(args: Array<String>) {
     val emp = Employee("`Siddle`", "Middle", 77, listOf("Games", "Reading", "Cooking", "IOT"))
     println("Employee : " + emp)

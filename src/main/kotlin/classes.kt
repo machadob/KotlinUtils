@@ -183,7 +183,7 @@ object Region { //Singelton object
     val region = "US"
 }
 
-// Delegates (Delegation) -- Delegating member functions.
+// Delegates --  Delegating member functions.
 interface MyLogger{ // Only interfaces can be delegeted.
     fun log(message:String);
 }
@@ -201,6 +201,8 @@ fun testDelegate(){ // This function tests Delegates.
     val myApp = Myapp(MyLoggerImpl())
     myApp.testLogger()
 }
+
+// Delegates --  Delegating properties.
 
 fun main(args: Array<String>) {
     val emp = Employee("`Siddle`", "Middle", 77, listOf("Games", "Reading", "Cooking", "IOT"))

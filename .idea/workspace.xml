@@ -407,10 +407,11 @@
       <screen x="0" y="23" width="1440" height="854" />
     </state>
     <state x="503" y="373" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.854@0.23.1440.854" timestamp="1584312551810" />
-    <state x="113" y="104" key="new project wizard" timestamp="1584308997250">
-      <screen x="0" y="23" width="1440" height="854" />
+    <state x="113" y="90" key="new project wizard" timestamp="1584812319179">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="104" y="140" key="new project wizard/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
+    <state x="113" y="90" key="new project wizard/0.23.1440.840@0.23.1440.840" timestamp="1584812319179" />
     <state x="104" y="103" key="new project wizard/0.23.1440.853@0.23.1440.853" timestamp="1583808768261" />
     <state x="113" y="104" key="new project wizard/0.23.1440.854@0.23.1440.854" timestamp="1584308997250" />
     <state x="482" y="87" key="refactoring.ChangeSignatureDialog" timestamp="1583977544436">
@@ -438,7 +439,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/classes.kt</url>
-          <line>232</line>
+          <line>234</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">

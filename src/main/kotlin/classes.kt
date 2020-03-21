@@ -226,6 +226,8 @@ fun DelPropTester(){
 
 // Property Delegation built into Kotlin.
 
+// Extension properties.
+
 
 fun main(args: Array<String>) {
     val emp = Employee("`Siddle`", "Middle", 77, listOf("Games", "Reading", "Cooking", "IOT"))

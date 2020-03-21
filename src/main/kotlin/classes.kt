@@ -1,4 +1,5 @@
 import com.burt.kotlin.NewPerson
+import kotlin.reflect.KProperty
 
 class AirPlane  //A very simple class
 
@@ -202,7 +203,29 @@ fun testDelegate(){ // This function tests Delegates.
     myApp.testLogger()
 }
 
-// Delegates --  Delegating properties.
+// Delegates --  Delegating properties (Externalizing properties).
+class DelPropTest {
+    var myProperty : String by ExtProp() // If you have val you just need to implement the getter below.
+}
+class ExtProp {
+    var backingField = "Default" // Is user created .. Not provided.
+    operator fun getValue(delPropTest: DelPropTest, property: KProperty<*>):String{
+        println(" In getvalue delPropTest : $delPropTest, property : ${property.name}")
+        return backingField
+    }
+    operator fun setValue(delPropTest: DelPropTest, property: KProperty<*>, str:String){
+        backingField = str
+    }
+}
+fun DelPropTester(){
+    val delPropTest =  DelPropTest()
+    println(delPropTest.myProperty)
+    delPropTest.myProperty = "New Value"
+    println(delPropTest.myProperty)
+}
+
+// Property Delegation built into Kotlin.
+
 
 fun main(args: Array<String>) {
     val emp = Employee("`Siddle`", "Middle", 77, listOf("Games", "Reading", "Cooking", "IOT"))

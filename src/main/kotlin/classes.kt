@@ -228,7 +228,6 @@ fun DelPropTester(){
 
 // Extension properties.
 
-
 fun main(args: Array<String>) {
     val emp = Employee("`Siddle`", "Middle", 77, listOf("Games", "Reading", "Cooking", "IOT"))
     println("Employee : " + emp)
@@ -238,7 +237,6 @@ fun main(args: Array<String>) {
     println("Name : " + customer.name)
     val np = NewPerson5("John")
     println("Name : " + np.getName())
-
     val localObject = object {
         val PI = Math.PI
     }

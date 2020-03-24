@@ -36,7 +36,7 @@ class MyRepo : Repo {
 
 // Generic with type restrictions.
 open class Entity(val id:Int)
-class SQLRepo<T: Entity>{ // Here T is restricted to Entity or it's subtype.
+class SQLRepo<T: Entity>{ // Here T is restricted to Entity or it's subtypes.
     fun save(entity: Entity){
         if(entity.id != 0){
             println("Id is valid")

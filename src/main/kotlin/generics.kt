@@ -58,6 +58,18 @@ fun <T: Serializable> streamObject(obj:T){ // Here T is restricted to Serializab
 
 }
 
+// Covariance with immutability.
+open class MyPerson
+class MyEmployee : MyPerson()
+fun operate(person:Array<MyPerson>){} // I cannot pass an Array<MyEmployee> to this function since Array is mutable.
+
+open class MyPerson1
+class MyEmployee1 : MyPerson1()
+fun operate(person1:List<MyPerson1>){} // I can now pass a List<MyEmployee> to this function since List is immutable.
+// The reason for above is that if the List is immutable you won't be able to add a MyPerson1 to MyEmployee1.
+// This preserves the invariant.
+
+
 //
 fun main(args: Array<String>) {
  val customerRepo = CustomerRepository<Customer>()

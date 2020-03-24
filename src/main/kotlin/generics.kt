@@ -69,6 +69,7 @@ fun operate(person1:List<MyPerson1>){} // I can now pass a List<MyEmployee> to t
 // The reason for above is that if the List is immutable you won't be able to add a MyPerson1 to MyEmployee1.
 // This preserves the invariant.
 
+// Contravariance. TODO: Add code here to demonstrate Contravariance.
 
 //
 fun main(args: Array<String>) {

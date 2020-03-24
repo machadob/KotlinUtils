@@ -71,7 +71,9 @@ fun operate(person1:List<MyPerson1>){} // I can now pass a List<MyEmployee> to t
 
 // Contravariance. TODO: Add code here to demonstrate Contravariance.
 
-//
+// Type projection. TODO: Add code here to demonstrate Type projection.
+
+
 fun main(args: Array<String>) {
  val customerRepo = CustomerRepository<Customer>()
     val customer = customerRepo.getById(1)

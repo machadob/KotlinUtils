@@ -73,6 +73,7 @@ fun operate(person1:List<MyPerson1>){} // I can now pass a List<MyEmployee> to t
 
 // Type projection. TODO: Add code here to demonstrate Type projection.
 
+// Star projection. TODO: Add code here to demonstrate Star projection.
 
 fun main(args: Array<String>) {
  val customerRepo = CustomerRepository<Customer>()

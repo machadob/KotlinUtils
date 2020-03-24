@@ -43,13 +43,19 @@ class SQLRepo<T: Entity>{ // Here T is restricted to Entity or it's subtypes.
         }
     }
 }
+
 // Generic with multiple type restrictions. Only one upper bound can be a class. The other has to be an interface.
-class SQLRepoOther<T>where T: Entity, T: Serializable { // Here T is restricted to Entity, Serializable  or their subtypes.
+class SQLRepoOther<T>where T: Entity, T: Serializable { // Here T is restricted to Entity, Serializable or their subtypes.
     fun save(entity: Entity){
         if(entity.id != 0){
             println("Id is valid")
         }
     }
+}
+
+// Generic function with type restriction.
+fun <T: Serializable> streamObject(obj:T){ // Here T is restricted to Serializable or it's subtypes.
+
 }
 
 //

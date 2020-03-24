@@ -1,3 +1,4 @@
+import java.io.Serializable
 
 //Generics are similar to Java
 interface Repository<T>{
@@ -33,6 +34,25 @@ class MyRepo : Repo {
     }
 }
 
+// Generic with type restrictions.
+open class Entity(val id:Int)
+class SQLRepo<T: Entity>{ // Here T is restricted to Entity or it's subtype.
+    fun save(entity: Entity){
+        if(entity.id != 0){
+            println("Id is valid")
+        }
+    }
+}
+// Generic with multiple type restrictions. Only one upper bound can be a class. The other has to be an interface.
+class SQLRepoOther<T>where T: Entity, T: Serializable { // Here T is restricted to Entity, Serializable  or their subtypes.
+    fun save(entity: Entity){
+        if(entity.id != 0){
+            println("Id is valid")
+        }
+    }
+}
+
+//
 fun main(args: Array<String>) {
  val customerRepo = CustomerRepository<Customer>()
     val customer = customerRepo.getById(1)

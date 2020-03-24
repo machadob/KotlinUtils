@@ -4,6 +4,7 @@
     <list default="true" id="b4e881f2-5f19-4453-aac0-e902f835b404" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/generics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/generics.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -390,11 +391,11 @@
     <state width="1378" height="249" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
     <state width="1378" height="249" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1583366767142" />
     <state width="1358" height="150" key="GridCell.Tab.1.right/0.23.1440.853@0.23.1440.853" timestamp="1583461531051" />
-    <state x="219" y="75" key="SettingsEditor" timestamp="1584057219114">
-      <screen x="0" y="23" width="1440" height="854" />
+    <state x="219" y="74" key="SettingsEditor" timestamp="1585011472180">
+      <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="219" y="75" key="SettingsEditor/0.23.1440.835@0.23.1440.835" timestamp="1583292611951" />
-    <state x="219" y="74" key="SettingsEditor/0.23.1440.838@0.23.1440.838" timestamp="1583366958060" />
+    <state x="219" y="74" key="SettingsEditor/0.23.1440.838@0.23.1440.838" timestamp="1585011472180" />
     <state x="219" y="75" key="SettingsEditor/0.23.1440.853@0.23.1440.853" timestamp="1583711692867" />
     <state x="219" y="75" key="SettingsEditor/0.23.1440.854@0.23.1440.854" timestamp="1584057219114" />
     <state x="376" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1583457351582">

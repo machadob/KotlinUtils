@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b4e881f2-5f19-4453-aac0-e902f835b404" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/generics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/generics.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/reflection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/reflection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/asyncProgramming.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/asyncProgramming.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
